@@ -115,7 +115,9 @@ class Level1(Level):
             # out of attempts
     
 
-#Single player function
+def single_player():
+    print("Single player function pending")
+    return
     #Enter name
         #save in list, will be used in level class, high score variable, leaderboard function
     #Enter levels
@@ -124,7 +126,9 @@ class Level1(Level):
     #Create user class, launch single level from inside user class
         #user class has score and attempts counters
         #Run level function inside user class
-
+def multi_player():
+    print("multi-player function pending")
+    return
 #Multiplayer
     #Enter name
         #save in list, will be used in level class, high score variable, leaderboard function
