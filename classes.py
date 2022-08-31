@@ -115,27 +115,3 @@ class Level1(Level):
             # out of attempts
     
 
-def single_player():
-    print("Single player function pending")
-    return
-    #Enter name
-        #save in list, will be used in level class, high score variable, leaderboard function
-    #Enter levels
-        #used in the player mode function
-    #Generate game corresponding to players and levels
-    #Create user class, launch single level from inside user class
-        #user class has score and attempts counters
-        #Run level function inside user class
-def multi_player():
-    print("multi-player function pending")
-    return
-#Multiplayer
-    #Enter name
-        #save in list, will be used in level class, high score variable, leaderboard function
-    #Enter levels
-        #used in the player mode function
-    #Generate game corresponding to players and levels
-    #Create user classes, level stacking function
-        #user class has score and attempts counters
-        #Run level function inside user class
-

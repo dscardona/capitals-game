@@ -1,6 +1,5 @@
 from curses.ascii import isdigit
-from functions import high_score, leaderboard
-from classes import single_player, multi_player
+from functions import high_score, leaderboard, single_player, multi_player
 
 
 print("୨⎯⎯‧̍̊˙˚˙ᵕ꒳ᵕ˙˚˙Welcome to the World Capitals Game!˙˚˙ᵕ꒳ᵕ˙˚˙‧̍̊⎯⎯୧")
