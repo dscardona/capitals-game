@@ -1,8 +1,8 @@
-#Continent/Region dictionaries
+# Continent/Region dictionaries
 americas_caribbean = {
     "Antigua and Barbuda": "Saint John's",
     "The Bahamas": "Nassau",
-    "Barbados":"Bridgetown",
+    "Barbados": "Bridgetown",
     "Belize": "Belmopan",
     "Canada": "Ottawa",
     "Cuba": "Havana",
@@ -36,7 +36,7 @@ americas_caribbean = {
     "Peru": "Lima",
     "Suriname": "Paramaribo",
     "Uruguay": "Montevideo",
-    "Venezuela": "Caracas"
+    "Venezuela": "Caracas",
 }
 
 africa = {
@@ -52,7 +52,7 @@ africa = {
     "Central African Republic": "Bangui",
     "Chad": "N'Djamena",
     "Comoros": "Moroni",
-    "Democratic Republic of the Congo" : "Kinshasa",
+    "Democratic Republic of the Congo": "Kinshasa",
     "Republic of the Congo": "Brazzaville",
     "Cote d'Ivoire": "Yamoussoukro",
     "Djibouti": "Djibouti",
@@ -71,7 +71,7 @@ africa = {
     "Lesotho": "Maseru",
     "Liberia": "Monrovia",
     "Libya": "Tripoli",
-    'Madagascar': "Antananarivo",
+    "Madagascar": "Antananarivo",
     "Malawi": "Lilongwe",
     "Mali": "Bamako",
     "Mauritania": "Nouakchott",
@@ -137,7 +137,7 @@ asia_middle_east = {
     "Philippines": "Manila",
     "Russia": "Moscow",
     "Saudi Arabia": "Riyadh",
-    "Singapore": 'Singapore',
+    "Singapore": "Singapore",
     "Sri Lanka": "Colombo",
     "Syria": "Damascus",
     "Taiwan": "Taipei",
@@ -149,7 +149,7 @@ asia_middle_east = {
     "Uzbekistan": "Tashkent",
     "Vietnam": "Hanoi",
     "Yemen": "Sanaa",
-    "Lebanon": "Beirut"
+    "Lebanon": "Beirut",
 }
 
 europe = {
@@ -197,7 +197,7 @@ europe = {
     "Switzerland": "Bern",
     "Turkey": "Ankara",
     "Ukraine": "Kyiv",
-    "United Kingdom": "London"
+    "United Kingdom": "London",
 }
 
 oceania_australia = {
@@ -215,7 +215,7 @@ oceania_australia = {
     "Solomon Islands": "Honiara",
     "Tonga": "Nuku'alofa",
     "Tuvalu": "Fongafale",
-    "Vanuatu": "Port-Vila"
+    "Vanuatu": "Port-Vila",
 }
 
 europe = {
@@ -263,7 +263,7 @@ europe = {
     "Switzerland": "Bern",
     "Turkey": "Ankara",
     "Ukraine": "Kyiv",
-    "United Kingdom": "London"
+    "United Kingdom": "London",
 }
 
 oceania_australia = {
@@ -281,6 +281,6 @@ oceania_australia = {
     "Solomon Islands": "Honiara",
     "Tonga": "Nuku'alofa",
     "Tuvalu": "Fongafale",
-    "Vanuatu": "Port-Vila"
+    "Vanuatu": "Port-Vila",
 }
-#source: https://www.enchantedlearning.com/geography/capitals/bycontinent.shtml
+# source: https://www.enchantedlearning.com/geography/capitals/bycontinent.shtml
