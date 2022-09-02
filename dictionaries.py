@@ -1,3 +1,4 @@
+#Continent/Region dictionaries
 americas_caribbean = {
     "Antigua and Barbuda": "Saint John's",
     "The Bahamas": "Nassau",
@@ -187,7 +188,6 @@ europe = {
     "Poland": "Warsaw",
     "Portugal": "Lisbon",
     "Romania": "Bucharest",
-    "Russia": "Moscow",
     "San Marino": "San Marino",
     "Serbia and Montenegro": "Belgrade",
     "Slovakia": "Bratislava",
@@ -218,5 +218,69 @@ oceania_australia = {
     "Vanuatu": "Port-Vila"
 }
 
+europe = {
+    "Albania": "Tirana",
+    "Andorra": "Andorra la Vella",
+    "Austria": "Vienna",
+    "Belarus": "Minsk",
+    "Belgium": "Brussels",
+    "Bosnia and Herzegovina": "Sarajevo",
+    "Bulgaria": "Sofia",
+    "Croatia": "Zagreb",
+    "Cyprus": "Nicosia",
+    "Czech Republic": "Prague",
+    "Denmark": "Copenhagen",
+    "Estonia": "Tallinn",
+    "Finland": "Helsinki",
+    "France": "Paris",
+    "Germany": "Berlin",
+    "Greece": "Athens",
+    "Holy See (Vatican City)": "Vatican City",
+    "Hungary": "Budapest",
+    "Iceland": "Reykjavik",
+    "Ireland": "Dublin",
+    "Italy": "Rome",
+    "Latvia": "Riga",
+    "Liechtenstein": "Vaduz",
+    "Lithuania": "Vilnius",
+    "Luxembourg": "Luxembourg",
+    "North Macedonia": "Skopje",
+    "Malta": "Valletta",
+    "Moldova": "Chisinau",
+    "Monaco": "Monaco",
+    "Netherlands (1/2)": "Amsterdam (capital)",
+    "Netherlands (seat of government, 1/2)": "The Hague",
+    "Norway": "Oslo",
+    "Poland": "Warsaw",
+    "Portugal": "Lisbon",
+    "Romania": "Bucharest",
+    "San Marino": "San Marino",
+    "Serbia and Montenegro": "Belgrade",
+    "Slovakia": "Bratislava",
+    "Slovenia": "Ljubljana",
+    "Spain": "Madrid",
+    "Sweden": "Stockholm",
+    "Switzerland": "Bern",
+    "Turkey": "Ankara",
+    "Ukraine": "Kyiv",
+    "United Kingdom": "London"
+}
 
+oceania_australia = {
+    "Australia": "Canberra",
+    "Cook Islands": "Avarua",
+    "Fiji": "Suva",
+    "Kiribati": "Tarawa",
+    "Marshall Islands": "Majuro",
+    "Federated States of Micronesia": "Palikir",
+    "Nauru (unofficial)": "Yaren District",
+    "New Zealand": "Wellington",
+    "Niue": "Alofi",
+    "Palau": "Koror",
+    "Samoa": "Apia",
+    "Solomon Islands": "Honiara",
+    "Tonga": "Nuku'alofa",
+    "Tuvalu": "Fongafale",
+    "Vanuatu": "Port-Vila"
+}
 #source: https://www.enchantedlearning.com/geography/capitals/bycontinent.shtml

@@ -1,33 +1,37 @@
-from curses.ascii import isdigit
-from functions import high_score, leaderboard, single_player, multi_player
+from classes import GameUser
+from functions import get_level, get_num_players, multi_player, get_name
 
-
-print("୨⎯⎯‧̍̊˙˚˙ᵕ꒳ᵕ˙˚˙Welcome to the World Capitals Game!˙˚˙ᵕ꒳ᵕ˙˚˙‧̍̊⎯⎯୧")
 while True:
-    while True:
-        name = []
-        score = []
-        num_players = input("Number of players? 1 - 4 ")
-        if num_players.isdigit() and int(num_players) != 0:
-            if int(num_players) == 1:
-                single_player()
-            elif int(num_players) > 1:
-                multi_player()
-        else:
-            print("Please enter a valid number of players.")
-            continue
+    #https://cutekaomoji.com/misc/sparkles/
+    print("୨⎯⎯‧̍̊˙˚˙ᵕ꒳ᵕ˙˚˙   Ⓦ ⓞ ⓡ ⓛ ⓓ  Ⓒ ⓐ ⓟ ⓘ ⓣ ⓐ ⓛ ⓢ  Ⓖ ⓐ ⓜ ⓔ   ˙˚˙ᵕ꒳ᵕ˙˚˙‧̍̊⎯⎯୧")
+    
+    num_players = get_num_players()
 
-        high_score(name, score)
-        leaderboard(name, score)
-        
-        play_again = input("Play again? y/n ")
-        if play_again == "n":
-            exit()
-        elif play_again== "y":
-            continue
+    #Multiplayer Mode
+    if num_players > 1:
+        multi_player()
 
+    #Single Player mode
+    else:
+        name = get_name()
+        level = get_level()
+        player = GameUser(name, level)
+        print(f'Player {player.name} created. Selected level: {level}')
+        if level == 1:
+            score = player.level1(player.score, player.attempts)
+        elif level == 2:
+            print("level2 method pending")
+        elif level == 3:
+            print("level3 method pending")
+        elif level == 4:
+            print("level4 method pending")
 
-
+    #high score/leaderboard function
+    
+    #option to restart or exit
+    play_again = input("Press enter to play again, or 0 to exit ")
+    if play_again == "0":
+        break
 
 
 
