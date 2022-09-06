@@ -1,15 +1,24 @@
+def prompt_num_players():
+    """Ask the user to enter the number of players.  Return the number if it is
+    between 1 and 4 (inclusive), and None otherwise.
+    """
+    num_players = input("Number of players (4 max)? ")
+    if num_players.isdigit():
+        num_players = int(num_players)
+        if num_players <= 4 and num_players > 0:
+            print(f"Configuring game for {num_players} player(s)")
+            return num_players
+        print(f"Game can't support {num_players} players")
+    else:
+        print("Please enter a valid number of players.")
+    return None
+
+
 def get_num_players():
-    # tried to call funcion recursively when the number of players is invalid. This was causing a type error (function returned None). This is why I opted for an infinite loop instead.
-    while True:
-        num_players = input("Number of players (4 max)? ")
-        if num_players.isdigit():
-            num_players = int(num_players)
-            if num_players <= 4 and num_players > 0:
-                print(f"Configuring game for {num_players} player(s)")
-                return num_players
-            print(f"Game can't support {num_players} players")
-        else:
-            print("Please enter a valid number of players.")
+    num_players = prompt_num_players()
+    while num_players is None:
+        num_players = prompt_num_players()
+    return num_players
 
 
 def get_name():
