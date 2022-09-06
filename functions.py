@@ -3,15 +3,17 @@ def prompt_num_players():
     between 1 and 4 (inclusive), and None otherwise.
     """
     num_players = input("Number of players (4 max)? ")
-    if num_players.isdigit():
-        num_players = int(num_players)
-        if num_players <= 4 and num_players > 0:
-            print(f"Configuring game for {num_players} player(s)")
-            return num_players
-        print(f"Game can't support {num_players} players")
-    else:
+    if not num_players.isdigit():
         print("Please enter a valid number of players.")
-    return None
+        return None
+
+    num_players = int(num_players)
+    if not 0 < num_players <= 4:
+        print(f"Game can't support {num_players} players")
+        return None
+
+    print(f"Configuring game for {num_players} player(s)")
+    return num_players
 
 
 def get_num_players():
