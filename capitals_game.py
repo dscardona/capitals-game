@@ -1,7 +1,8 @@
 from classes import GameUser
 from functions import get_level, get_num_players, multi_player, get_name
 
-while True:
+play_again = ""
+while play_again != "0":
     # https://cutekaomoji.com/misc/sparkles/
     print(
         "୨⎯⎯‧̍̊˙˚˙ᵕ꒳ᵕ˙˚˙   Ⓦ ⓞ ⓡ ⓛ ⓓ  Ⓒ ⓐ ⓟ ⓘ ⓣ ⓐ ⓛ ⓢ  Ⓖ ⓐ ⓜ ⓔ   ˙˚˙ᵕ꒳ᵕ˙˚˙‧̍̊⎯⎯୧"
@@ -32,5 +33,3 @@ while True:
 
     # option to restart or exit
     play_again = input("Press enter to play again, or 0 to exit ")
-    if play_again == "0":
-        break
